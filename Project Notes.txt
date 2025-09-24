@@ -1,2 +1,32 @@
 Project Notes
 
+What This Project Does
+This automation system grabs survey data from Typeform and puts it into clean, organized Google Sheets automatically. No more manual downloading and uploading!
+Before: Download CSV → Clean data → Upload to Sheets
+After: Click one button → Get clean data 
+
+Data Processing Pipeline
+
+When you click any processing button, here's what the system does:
+1. Typeform API
+   ↓ (Connects to Typeform and gets raw survey data)
+
+2. Data Retrieval  
+   ↓ (Downloads all responses from your survey)
+
+3. Data Cleaning
+   ↓ (Fixes formatting, removes extra spaces, standardizes text)
+
+4. Structure Normalization
+   ↓ (Makes sure all surveys have the same column format)
+
+5. Sheet Creation
+   ↓ (Creates a new Google Sheet with clean data)
+
+6. Database Updates
+   ↓ (Updates your Master Database with the new info)
+
+7. Status Reporting
+   ✅ (Shows "Complete" status and logs everything)
+
+
